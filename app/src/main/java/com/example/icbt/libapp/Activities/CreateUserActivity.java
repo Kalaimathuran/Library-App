@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.icbt.libapp.R;
 
+import butterknife.OnClick;
 
 
 public class CreateUserActivity extends AppCompatActivity {
@@ -16,5 +17,8 @@ public class CreateUserActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_user);
+    }
+    public void create(){
+
     }
 }
